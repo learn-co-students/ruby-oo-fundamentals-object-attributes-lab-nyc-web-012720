@@ -1,41 +1,23 @@
 
-class Person
 
+
+
+class Person
+  def intialize (
+    name, job
+    )
+
+  end
+  def name=(name)
+    @name=name
+  end
   def name
     @name
   end
-
-  def name=(name)
-    @name = name
+  def job=(job)
+    @job=job
   end
-
-  def jobs
-    @jobs
-  end
-
-  def jobs
-    =(jobs
-    )
-    @jobs
-     = jobs
-     
+  def job
+    @job
   end
 end
-
-
-
-# class Person
-#   def name=(name)
-#     @name=name
-#   end
-#   def name
-#     @name
-#   end
-#   def jobs
-=(job)
-#     @job=job
-#   end
-#   def job
-#     @job
-#   end
-# end
