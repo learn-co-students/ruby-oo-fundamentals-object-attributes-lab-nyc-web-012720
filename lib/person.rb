@@ -4,11 +4,11 @@ class Person
         @job = job
     end
     
-    def name(name = "Sam")
+    def name
         @name
     end
 
-    def job(job = "student")
+    def job
         @job
     end
 
